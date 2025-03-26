@@ -59,25 +59,6 @@ const Sidebar = ({ isOpen }) => {
               <span className="sidebar-text">Attendance</span>
             </NavLink>
           </li>
-          
-          <li className="sidebar-item mt-4">
-            <NavLink to="/reports" className="sidebar-link">
-              <span className="sidebar-icon"><FaChartBar /></span>
-              <span className="sidebar-text">Reports</span>
-            </NavLink>
-          </li>
-          <li className="sidebar-item">
-            <NavLink to="/settings" className="sidebar-link">
-              <span className="sidebar-icon"><FaCog /></span>
-              <span className="sidebar-text">Settings</span>
-            </NavLink>
-          </li>
-          <li className="sidebar-item">
-            <NavLink to="/help" className="sidebar-link">
-              <span className="sidebar-icon"><FaQuestionCircle /></span>
-              <span className="sidebar-text">Help & Support</span>
-            </NavLink>
-          </li>
         </ul>
       </div>
     </div>
